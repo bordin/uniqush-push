@@ -34,7 +34,8 @@ import (
 )
 
 const (
-	gcmServiceURL string = "https://android.googleapis.com/gcm/send"
+	//gcmServiceURL string = "https://android.googleapis.com/gcm/send"
+		gcmServiceURL string = "https://fcm.googleapis.com/fcm/send"
 )
 
 type gcmPushService struct {
